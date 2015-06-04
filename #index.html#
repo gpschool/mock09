@@ -1,0 +1,186 @@
+<head>
+    <style>
+    .currentsection  {
+	 background-color: #f0f0ff; 
+	 color:#000;
+	 display: block; 
+	 font-weight:normal;
+	 padding: 4px 4px 5px 4px;
+	 text-decoration:none; 
+    }
+    .multilevel-linkdiv-0 {
+	 background-color: #f0f0ff; 
+	 margin-left: 1.0em;
+         text-align: left
+    }
+    a.greylink:link    { color: #c0c0c0; }
+    a.greylink:visited { color: #d0d0d0; }
+		
+    .lined {
+	 border-style: solid;
+	 border-color: #006073;
+	 border-bottom-width: 0px;
+	 border-top-width: 1px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+    }
+    table, caption {
+      font-size: inherit;
+      font-weight: inherit;
+      font-style: inherit;
+      font-variant: inherit;
+    }
+    </style>
+
+    <style type="text/css" media="screen">
+    /*<![CDATA[*/
+    <!--
+    .section {margin-left: 4em}
+    -->
+    /*]]>*/
+    </style>
+<!--  End of Style Sheet CSS -->
+</head>
+
+<head>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="" type="image/vnd.microsoft.icon">
+<link rel="icon" href="" type="image/vnd.microsoft.icon">
+
+</head>
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+
+
+<table border="0" cellpadding="0" cellspacing="0" align="right">
+<tr>
+<td><!--***************************************************************************************-->
+<A onmouseover="window.status&#13;&#10;='Main Page';
+ return true"
+ onmouseout ="window.status=''; return true" href="./index.html" >
+Main Page</A>&nbsp;&nbsp;<font color="#660099">|</font>&nbsp;&nbsp; <!--***************************************************************************************-->
+
+</td>
+
+<td><!--***************************************************************************************-->
+<A onmouseover="window.status&#13;&#10;='Schedule';
+ return true"
+ onmouseout ="window.status=''; return true" href="./schedule.html" >
+Schedule</A>&nbsp;&nbsp;<font color="#660099">|</font>&nbsp;&nbsp; <!--***************************************************************************************-->
+</td>
+
+
+
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="436">
+
+<tr>
+<td width="60" valign="top"><!--***************************************************************************************-->&nbsp; 
+<!--***************************************************************************************-->
+</td>
+<td><!--***************************************************************************************-->
+<!--<a href="http://www.manchester.ac.uk/"
+ onMouseOver 
+="window.status='image1'; return true"
+ onMouseOut="window.status=''; return true" 
+      align="right" valign  ="top" 
+     ; <P 
+     ><IMG alt="University Logo" title="Manchester Est. 1824" src="http://www.cs.manchester.ac.uk/ai/pictures/icons/est1824.gif"> -->
+<!--***************************************************************************************-->
+</td>
+</tr>
+</table></body>
+
+<div class="section"><head><title>Kernels for Multiple Outputs and Multi-task Learning: Frequentist and Bayesian Points of View</title></head>
+<center>
+<h1>Kernels for Multiple Outputs and Multi-task Learning: Frequentist and Bayesian Points of View</h1><h2>Whistler, BC, Canada<br>
+12 December 2009<br></h2>
+</center><p>Accounting for dependencies between outputs has important
+applications in several areas. In sensor networks, for  example,
+missing signals from temporal failing sensors may be predicted due to
+correlations with signals acquired from other sensors. In
+geo-statistics, prediction of the concentration of heavy pollutant
+metals (for example, Copper  concentration), that require expensive
+procedures to be measured, can be done using inexpensive and
+oversampled variables (for example, pH data).
+
+<p>Multi-task learning is a general learning framework in which it is
+assumed that learning multiple tasks simultaneously leads to better
+modeling results and performance that learning the same tasks
+individually. Exploiting correlations and dependencies among tasks, it
+becomes possible to handle common practical situations such as missing
+data or to increase the amount of potential data when only few amount
+of data per task is available.
+
+<p>In this workshop we will consider the use of kernel methods for
+multiple outputs and multi-task learning. The aim of the workshop is to
+bring together Bayesian and frequentist researchers to establish
+common ground and shared goals.
+<hr><a href="./schedule.html"><h3>Schedule</h3></a><a href="./dates.html"><h3>Important Dates</h3></a><hr><p>Multi-task learning is a general learning framework in which it is
+assumed that learning multiple tasks simultaneously leads to better
+modeling results and performance that learning the same tasks
+individually. Exploiting correlations and dependencies among tasks, it
+becomes possible to handle common practical situations such as missing
+data or to increase the amount of potential data when only few amount
+of data per task is available.
+
+<h2>Motivation</h2>
+
+In the last few years there has been an increasing amount of work on
+Multi-task Learning. Hierarchical Bayesian approaches and neural
+networks have been proposed. More recently, the Gaussian Processes framework has been
+considered, where the correlations among tasks can be captured by
+appropriate choices of covariance functions.  Many of these choices
+have been inspired by the geo-statistics literature, in which a
+similar area is known as <i>cokriging</i>. In the frequentist
+perspective, regularization theory has provided a natural framework to
+deal with multi-task problems: assumptions on the relation of the
+different tasks translate into the design of suitable regularizers.
+Despite the common traits of the proposed approaches, so far different
+communities have worked independently.  For example it is natural to
+ask whether the proposed choices of the covariance function can be
+interpreted from a regularization perspective.  Or, in turn, if each
+regularizer induces a specific form of the covariance/kernel function.
+By bringing together the latest advances from both communities, we aim
+at establishing what is the state of the art and the possible future
+challenges in the context of multiple-task learning.
+
+
+<h3>Target Audience</h3>
+
+<p>This workshop will be a venue for researchers coming from Bayesian and
+frequentist perspectives to discuss differences and common aspects between
+the different approaches as well as to to gain insights on the common
+fundamental principles  underlying multiple-task learning.
+The workshop will  be of interest for both theoreticians and practitioners.
+
+<h3>Invited Speakers</h3>
+
+<ul>
+<li> David Higdon, Los Alamos National Laboratory, USA</li>
+<li> Hans Wackernagel, Ecole des Mines Paris, France </li>
+<li> Sayan Mukherjee, Duke University, USA</li>
+<li> Andreas Argyriou, Toyota Technological Institute, USA</li>
+</ul>
+
+<hr>
+
+<a href="./submissions.html"><h3>Call for Submissions</h3></a><a href="./programmeCommittee.html"><h3>Programme Committee</h3></a><p>The workshop is sponsored by <a href="http://www.pascal-network.org">EU FP7 PASCAL2 Network of Excellence</a>.<p align="center">Page last updated on Friday 15 Jan 2010 at 14:15</p></div><!-- footer -->
+<!--
+<body>
+    <div id="footer">
+      <div class="links">
+      </div>
+      <div class="pagestatus">
+        <p>Please contact
+          <a href="mailto:nips.mock09@gmail.com">nips.mock09@gmail.com</a>
+          with comments and suggestions
+        </p>
+      </div>
+    </div>
+
+  </body>
+-->
