@@ -1,0 +1,58 @@
+# Site settings
+title: "Kernels for Multiple Outputs and Multi-task Learning: Frequentist and Bayesian Points of View"
+author:
+  name: Neil D. Lawrence
+  email: 
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/mock09" # the subpath of your site, e.g. /blog/
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: gpss
+
+url: http://gpss.cc # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  gpschool
+facebook_page: gaussianprocesssummerschool
+
+ghub:
+  edit: true
+  repository: mock09
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: 
+  hide_tentative: true
+  logo: gpss-logo.svg
+  name: Kernels for Multiple Outputs
+  short_name: MOCK
+  full_name: "Kernels for Multiple Outputs and Multi-task Learning: Frequentist and Bayesian Points of View"
+  venue: Room 2.15, School of Computer Science
+  location: Whistler, BC, Canada
+  dates:
+  - 2009-12-12
+  chairs:
+  - type: Organizers
+    people:
+    - family: Alvarez
+      given: Mauricio
+      institute: School of Computer Science, The University of Manchester, UK
+      url: http://www.cs.man.ac.uk/~alvarezm/
+    - family: Lawrence
+      given: Neil D.
+      institute: School of Computer Science, The University of Manchester, UK
+      url: http://inverseprobability.com
+    - family: Rosasco
+      given: Lorenzo
+      institute: CBCL, Massachusetts Institute of Technology.
+      url: http://web.mit.edu/lrosasco/www/
+  sponsors:
+  - name: EU FP7 PASCAL2 Network of Excellence
+    url: https://www.k4all.org/project/pascal2/
+analytics:
+  google:
+    tracking_id: UA-62991754-1
+# Build settings
+markdown: kramdown
